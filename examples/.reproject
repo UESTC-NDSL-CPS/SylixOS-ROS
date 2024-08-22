@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+    <BaseSetting Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="6.1.0 Professional" TlsVersion="default"/>
+    <OutputSetting>
+        <OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+        <OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+        <OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+    </OutputSetting>
+    <BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+    <DeviceSetting DevName="192.168.7.37" WorkDir="/apps/examples"/>
+    <UploadPath>
+        <PairItem key="$(WORKSPACE_examples)/$(Output)/strip/minimal_publisher-lambda" value="/apps/examples/minimal_publisher-lambda"/>
+        <PairItem key="$(WORKSPACE_examples)/$(Output)/strip/minimal_subscribe-lambda" value="/apps/examples/minimal_subscribe-lambda"/>
+        <PairItem key="$(WORKSPACE_examples)/$(Output)/strip/intra" value="/apps/examples/intra"/>
+        <PairItem key="$(WORKSPACE_examples)/$(Output)/strip/exp" value="/apps/examples/exp"/>
+        <PairItem key="$(WORKSPACE_examples)/$(Output)/strip/client" value="/apps/examples/client"/>
+        <PairItem key="$(WORKSPACE_examples)/$(Output)/strip/service" value="/apps/examples/service"/>
+    </UploadPath>
+    <ExtDevNames/>
+</SylixOSSetting>

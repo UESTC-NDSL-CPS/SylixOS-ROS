@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+    <BaseSetting Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="6.1.0 Professional" TlsVersion="default"/>
+    <OutputSetting>
+        <OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+        <OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+        <OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+    </OutputSetting>
+    <BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+    <DeviceSetting DevName="192.168.7.37" WorkDir="/apps/action_msgs"/>
+    <UploadPath>
+        <PairItem key="$(WORKSPACE_action_msgs)/$(Output)/strip/libaction_msgs__rosidl_generator_c.so" value="/lib/libaction_msgs__rosidl_generator_c.so"/>
+        <PairItem key="$(WORKSPACE_action_msgs)/$(Output)/strip/libaction_msgs__rosidl_typesupport_c.so" value="/lib/libaction_msgs__rosidl_typesupport_c.so"/>
+        <PairItem key="$(WORKSPACE_action_msgs)/$(Output)/strip/libaction_msgs__rosidl_typesupport_cpp.so" value="/lib/libaction_msgs__rosidl_typesupport_cpp.so"/>
+        <PairItem key="$(WORKSPACE_action_msgs)/$(Output)/strip/libaction_msgs__rosidl_typesupport_fastrtps_c.so" value="/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so"/>
+        <PairItem key="$(WORKSPACE_action_msgs)/$(Output)/strip/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so" value="/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so"/>
+        <PairItem key="$(WORKSPACE_action_msgs)/$(Output)/strip/libaction_msgs__rosidl_typesupport_introspection_c.so" value="/lib/libaction_msgs__rosidl_typesupport_introspection_c.so"/>
+        <PairItem key="$(WORKSPACE_action_msgs)/$(Output)/strip/libaction_msgs__rosidl_typesupport_introspection_cpp.so" value="/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so"/>
+    </UploadPath>
+    <ExtDevNames/>
+</SylixOSSetting>

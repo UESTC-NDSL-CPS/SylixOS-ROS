@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+    <BaseSetting Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="6.1.0 Professional" TlsVersion="default"/>
+    <OutputSetting>
+        <OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+        <OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+        <OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+    </OutputSetting>
+    <BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+    <DeviceSetting DevName="192.168.7.37" WorkDir="/apps/rclcpp"/>
+    <UploadPath>
+        <PairItem key="$(WORKSPACE_rclcpp)/$(Output)/strip/librclcpp.so" value="/lib/librclcpp.so"/>
+        <PairItem key="$(WORKSPACE_rclcpp)/$(Output)/strip/librclcpp-action.so" value="/lib/librclcpp-action.so"/>
+        <PairItem key="$(WORKSPACE_rclcpp)/$(Output)/strip/librclcpp-components.so" value="/lib/librclcpp-components.so"/>
+        <PairItem key="$(WORKSPACE_rclcpp)/$(Output)/strip/librclcpp-lifecycle.so" value="/lib/librclcpp-lifecycle.so"/>
+    </UploadPath>
+    <ExtDevNames/>
+</SylixOSSetting>

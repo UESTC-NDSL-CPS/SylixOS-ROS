@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+    <BaseSetting Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="6.1.0 Professional" TlsVersion="default"/>
+    <OutputSetting>
+        <OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+        <OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+        <OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+    </OutputSetting>
+    <BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+    <DeviceSetting DevName="192.168.7.37" WorkDir="/apps/rosidl"/>
+    <UploadPath>
+        <PairItem key="$(WORKSPACE_rosidl)/$(Output)/strip/librosidl_generator_c_interfaces__rosidl_generator_c.so" value="/lib/librosidl_generator_c_interfaces__rosidl_generator_c.so"/>
+        <PairItem key="$(WORKSPACE_rosidl)/$(Output)/strip/librosidl_runtime_c.so" value="/lib/librosidl_runtime_c.so"/>
+        <PairItem key="$(WORKSPACE_rosidl)/$(Output)/strip/librosidl_typesupport_c.so" value="/lib/librosidl_typesupport_c.so"/>
+        <PairItem key="$(WORKSPACE_rosidl)/$(Output)/strip/librosidl_typesupport_cpp.so" value="/lib/librosidl_typesupport_cpp.so"/>
+        <PairItem key="$(WORKSPACE_rosidl)/$(Output)/strip/librosidl_typesupport_fastrtps_c.so" value="/lib/librosidl_typesupport_fastrtps_c.so"/>
+        <PairItem key="$(WORKSPACE_rosidl)/$(Output)/strip/librosidl_typesupport_fastrtps_cpp.so" value="/lib/librosidl_typesupport_fastrtps_cpp.so"/>
+        <PairItem key="$(WORKSPACE_rosidl)/$(Output)/strip/librosidl_typesupport_introspection_c.so" value="/lib/librosidl_typesupport_introspection_c.so"/>
+        <PairItem key="$(WORKSPACE_rosidl)/$(Output)/strip/librosidl_typesupport_introspection_cpp.so" value="/lib/librosidl_typesupport_introspection_cpp.so"/>
+    </UploadPath>
+    <ExtDevNames/>
+</SylixOSSetting>

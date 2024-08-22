@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.core.default.config.1091799948">
+			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.1091799948" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/base_demo/libsylixos/SylixOS" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/base_demo/libsylixos/SylixOS/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/base_demo/libcextern/libcextern/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/compiler/aarch64-sylixos-toolchain/lib/gcc/aarch64-sylixos-elf/10.2.1/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include/c++/10.2.1" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include/c++/10.2.1/aarch64-sylixos-elf" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/compiler/aarch64-sylixos-toolchain/aarch64-sylixos-elf/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/base_demo/libsylixos/SylixOS/include/network" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="src/rcl-5.3.7/rcl_action/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="src/rcl-5.3.7/rcl/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/rcutils/src/rcutils-5.1.5/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/rmw/src/rmw-6.1.1/rmw/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="src/rcl-5.3.7/rcl_yaml_param_parser/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/rosidl/src/rosidl/rosidl_runtime_c/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/rosidl/src/rosidl/rosidl_typesupport_interface/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/action_msgs/src/action_msgs/rosidl_generator_c" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/unique_identifier_msgs/src/unique_identifier_msgs/rosidl_generator_c" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/builtin_interfaces/src/builtin_interfaces/rosidl_generator_c" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="src/rcl-5.3.7/rcl_lifecycle/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/RCL/src/rcl-5.3.7/rcl/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/lifecycle_msgs/src/lifecycle_msgs/rosidl_generator_c" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/yaml/src/libyaml-0.2.5/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/rcl_interfaces/src/rcl_interfaces/rosidl_generator_c" kind="inc" path="" system="true"/>
+		<pathentry base-ref="RCL" include="E:/softwares/realEvo/workspace/logging/src/rcl_logging-2.3.1/rcl_logging_interface/include" kind="inc" path="" system="true"/>
+		<pathentry excluding="obj|dep" kind="out" path="Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="build"/>
+	</storageModule>
+</cproject>

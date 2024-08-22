@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+    <BaseSetting Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="6.1.0 Professional" TlsVersion="default"/>
+    <OutputSetting>
+        <OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+        <OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+        <OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+    </OutputSetting>
+    <BuildSetting CoustomCfgMakefile="false" NeedReBuild="false" NotScanSourceFile="false"/>
+    <DeviceSetting DevName="192.168.7.37" WorkDir="/apps/rmw_fastrtps"/>
+    <UploadPath>
+        <PairItem key="$(WORKSPACE_rmw_fastrtps)/$(Output)/strip/librmw_fastrtps_shared_cpp.so" value="/lib/librmw_fastrtps_shared_cpp.so"/>
+        <PairItem key="$(WORKSPACE_rmw_fastrtps)/$(Output)/strip/librmw_fastrtps_dynamic_cpp.so" value="/lib/librmw_fastrtps_dynamic_cpp.so"/>
+        <PairItem key="$(WORKSPACE_rmw_fastrtps)/$(Output)/strip/librmw_fastrtps_cpp.so" value="/lib/librmw_fastrtps_cpp.so"/>
+    </UploadPath>
+    <ExtDevNames/>
+</SylixOSSetting>

@@ -1,0 +1,27 @@
+1、创建 C++ 工程；
+
+2、修改 xxx.mk，添加需要编译的文件；
+
+3、修改配置：
+C++ Flags ：-std=c++11 -fexceptions -frtti
+Macro :  _GLIBCXX_USE_C99
+
+4、添加头文件搜索路径
+-I"$(WORKSPACE_libfastrtps)/src/Fast-CDR/include"
+-I"$(WORKSPACE_libfastrtps)/src/Fast-DDS/include"
+-I"$(WORKSPACE_libfastrtps)/src/Fast-CDR/build/include"
+-I"$(WORKSPACE_libfastrtps)/src/Fast-DDS/build/include"
+
+5、添加库与库文件搜索路径
+
+-lfastrtps 
+-lfastcdr
+-lfastrtps_pre
+-L"$(WORKSPACE_libfastrtps)/$(Output)/strip"
+
+6、如果需要打开 Log 则在应用程序中添加如下语句
+
+#include <fastrtps/log/Log.h>
+ Log::SetVerbosity(Log::Info);
+
+7、运行需要加载 xsiipc.ko

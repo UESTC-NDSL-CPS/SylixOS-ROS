@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<SylixOSSetting>
+    <BaseSetting Profile="standard" ProjectType="SylixOSAppProject" RealEvoVer="4.0.0 Professional" TlsVersion="default"/>
+    <OutputSetting>
+        <OutputPath Name="Output" Path="Release:Debug" TreeNode="Output"/>
+        <OutputPath Name="Debug" Path="Debug" TreeNode="Debug"/>
+        <OutputPath Name="Release" Path="Release" TreeNode="Release"/>
+    </OutputSetting>
+    <BuildSetting CoustomCfgMakefile="true" NeedReBuild="false" NotScanSourceFile="true"/>
+    <DeviceSetting DevName="192.168.7.37" WorkDir="/lib"/>
+    <UploadPath>
+        <PairItem key="$(WORKSPACE_libfastrtps-master)/$(Output)/strip/libtinyxml2.so" value="/lib/libtinyxml2.so"/>
+        <PairItem key="$(WORKSPACE_libfastrtps-master)/$(Output)/strip/libfoonathan_memory.so" value="/lib/libfoonathan_memory.so"/>
+        <PairItem key="$(WORKSPACE_libfastrtps-master)/$(Output)/strip/libfastcdr.so" value="/lib/libfastcdr.so"/>
+        <PairItem key="$(WORKSPACE_libfastrtps-master)/$(Output)/strip/libfastrtps_pre.so" value="/lib/libfastrtps_pre.so"/>
+        <PairItem key="$(WORKSPACE_libfastrtps-master)/$(Output)/strip/libfastrtps-master.so" value="/lib/libfastrtps-master.so"/>
+    </UploadPath>
+    <ExtDevNames/>
+</SylixOSSetting>
